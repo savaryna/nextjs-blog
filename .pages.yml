@@ -11,11 +11,9 @@ content:
       - name: title
         label: Title
         type: string
-        required: true
       - name: subtitle
         label: Sub title
         type: rich-text
-        required: true
   - name: posts
     label: Posts
     type: collection
