@@ -3,6 +3,19 @@ media:
   output: /assets
   categories: [ "image" ]
 content:
+  - name: landing
+    label: Landing
+    type: file
+    path: _landing
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: subtitle
+        label: Sub title
+        type: rich-text
+        required: true
   - name: posts
     label: Posts
     type: collection
